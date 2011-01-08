@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CD360155-DF6C-427D-9504-20E9D24F6FD7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dBang.Resourc_e</RootNamespace>
+    <AssemblyName>dBang.Resourc e</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UI\dBang.rp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UI\addKeyword.html" />
+    <Content Include="UI\addKeyword_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\addKeyword_files\u0.png" />
+    <Content Include="UI\addKeyword_files\u122.png" />
+    <Content Include="UI\addKeyword_files\u78.png" />
+    <Content Include="UI\addPersonInfo.html" />
+    <Content Include="UI\addPersonInfo_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\buyCard.html" />
+    <Content Include="UI\buyCard_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\buyCard_files\u0.png" />
+    <Content Include="UI\dBang_Start.html" />
+    <Content Include="UI\detailInfo.html" />
+    <Content Include="UI\detailInfo_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\detailInfo_files\u12.png" />
+    <Content Include="UI\detailInfo_files\u13.png" />
+    <Content Include="UI\detailInfo_files\u16.png" />
+    <Content Include="UI\detailInfo_files\u18.png" />
+    <Content Include="UI\giveMoney.html" />
+    <Content Include="UI\giveMoney_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\giveMoney_files\u0.png" />
+    <Content Include="UI\Home.html" />
+    <Content Include="UI\Home_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\Home_files\u0.jpg" />
+    <Content Include="UI\Home_files\u12.png" />
+    <Content Include="UI\Home_files\u13.png" />
+    <Content Include="UI\Home_files\u20.png" />
+    <Content Include="UI\Home_files\u21.png" />
+    <Content Include="UI\Home_files\u28.png" />
+    <Content Include="UI\Home_files\u29.png" />
+    <Content Include="UI\Home_files\u4.png" />
+    <Content Include="UI\Home_files\u5.png" />
+    <Content Include="UI\index.html" />
+    <Content Include="UI\index.png" />
+    <Content Include="UI\login.html" />
+    <Content Include="UI\login2.html" />
+    <Content Include="UI\login2_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\login2_files\u0.png" />
+    <Content Include="UI\login2_files\u18.png" />
+    <Content Include="UI\login2_files\u6.png" />
+    <Content Include="UI\loginEditBaseInfo.html" />
+    <Content Include="UI\loginEditBaseInfo_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\loginListBaseInfo.html" />
+    <Content Include="UI\loginListBaseInfo_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\loginListBaseInfo_files\u0.png" />
+    <Content Include="UI\loginMain.html" />
+    <Content Include="UI\loginMain_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\loginMain_files\u0.png" />
+    <Content Include="UI\loginMain_files\u16.png" />
+    <Content Include="UI\loginMain_files\u17.png" />
+    <Content Include="UI\loginMain_files\u20.png" />
+    <Content Include="UI\loginMain_files\u21.png" />
+    <Content Include="UI\loginMain_files\u22.png" />
+    <Content Include="UI\loginMain_files\u23.png" />
+    <Content Include="UI\loginMain_files\u30.png" />
+    <Content Include="UI\loginMain_files\u34.png" />
+    <Content Include="UI\loginMain_files\u6.png" />
+    <Content Include="UI\loginOrgMain.html" />
+    <Content Include="UI\loginOrgMain_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\loginOrgMain_files\u0.png" />
+    <Content Include="UI\loginOrgMain_files\u17.png" />
+    <Content Include="UI\loginOrgMain_files\u21.png" />
+    <Content Include="UI\loginOrgMain_files\u23.png" />
+    <Content Include="UI\loginPublishList.html" />
+    <Content Include="UI\loginPublishList_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\loginPublishList_files\u0.png" />
+    <Content Include="UI\login_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\moneyDetail.html" />
+    <Content Include="UI\moneyDetail_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\moneyDetail_files\u0.png" />
+    <Content Include="UI\myCard.html" />
+    <Content Include="UI\myCard_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\myCard_files\u0.png" />
+    <Content Include="UI\myMoney.html" />
+    <Content Include="UI\myMoney_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\myMoney_files\u0.png" />
+    <Content Include="UI\New_Page_1.html" />
+    <Content Include="UI\New_Page_1_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\New_Page_1_files\u0.png" />
+    <Content Include="UI\New_Page_1_files\u31.png" />
+    <Content Include="UI\New_Page_1_files\u44.png" />
+    <Content Include="UI\New_Page_1_files\u47.png" />
+    <Content Include="UI\New_Page_1_files\u49.png" />
+    <Content Include="UI\Page_1.html" />
+    <Content Include="UI\Page_1_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\Page_2.html" />
+    <Content Include="UI\Page_2_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\Page_3.html" />
+    <Content Include="UI\Page_3_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\personPublish.html" />
+    <Content Include="UI\personPublish_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\personPublish_files\u0.png" />
+    <Content Include="UI\personPublish_files\u2.png" />
+    <Content Include="UI\personPublish_files\u29.png" />
+    <Content Include="UI\personPublish_files\u33.png" />
+    <Content Include="UI\personPublish_files\u4.png" />
+    <Content Include="UI\personPublish_files\u56.png" />
+    <Content Include="UI\personPublish_files\u57.png" />
+    <Content Include="UI\plMyContact.html" />
+    <Content Include="UI\plMyContact_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\plMyContact_files\u1.png" />
+    <Content Include="UI\plPerson.html" />
+    <Content Include="UI\plPerson_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\plPerson_files\u0.png" />
+    <Content Include="UI\plPerson_files\u15.png" />
+    <Content Include="UI\plPerson_files\u2.png" />
+    <Content Include="UI\publishInfo.html" />
+    <Content Include="UI\publishInfo_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\publishInfo_files\u0.png" />
+    <Content Include="UI\publishInfo_files\u35.png" />
+    <Content Include="UI\register.html" />
+    <Content Include="UI\register_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\Resources\ann.html" />
+    <Content Include="UI\Resources\axurerppage.css" />
+    <Content Include="UI\Resources\axurerpprototype.css" />
+    <Content Include="UI\Resources\axurerp_beforepagescript.js" />
+    <Content Include="UI\Resources\axurerp_pagescript.js" />
+    <Content Include="UI\Resources\CloseButton.gif" />
+    <Content Include="UI\Resources\doc.gif" />
+    <Content Include="UI\Resources\flow.gif" />
+    <Content Include="UI\Resources\images.html" />
+    <Content Include="UI\Resources\leaf.gif" />
+    <Content Include="UI\Resources\minus.gif" />
+    <Content Include="UI\Resources\newwindow.gif" />
+    <Content Include="UI\Resources\note.gif" />
+    <Content Include="UI\Resources\Other.html" />
+    <Content Include="UI\Resources\page.gif" />
+    <Content Include="UI\Resources\plus.gif" />
+    <Content Include="UI\Resources\reload.html" />
+    <Content Include="UI\Resources\resize.gif" />
+    <Content Include="UI\Resources\transparent.gif" />
+    <Content Include="UI\Resources\window_01.gif" />
+    <Content Include="UI\Resources\window_02.gif" />
+    <Content Include="UI\Resources\window_04.gif" />
+    <Content Include="UI\Resources\window_05.gif" />
+    <Content Include="UI\Resources\window_07.gif" />
+    <Content Include="UI\Resources\window_09.gif" />
+    <Content Include="UI\Resources\window_10.gif" />
+    <Content Include="UI\Resources\window_11.gif" />
+    <Content Include="UI\Resources\window_12.gif" />
+    <Content Include="UI\Resources\wm.gif" />
+    <Content Include="UI\searchList.html" />
+    <Content Include="UI\searchList_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\searchList_files\u11.png" />
+    <Content Include="UI\searchList_files\u14.png" />
+    <Content Include="UI\searchList_files\u17.png" />
+    <Content Include="UI\selectKeyword.html" />
+    <Content Include="UI\selectKeyword_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\selectKeyword_files\u0.png" />
+    <Content Include="UI\tgAddInvest.html" />
+    <Content Include="UI\tgAddInvest_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgAddTeam.html" />
+    <Content Include="UI\tgAddTeam_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgApplyList.html" />
+    <Content Include="UI\tgApplyList_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgApplyList_files\u0.png" />
+    <Content Include="UI\tgClass.html" />
+    <Content Include="UI\tgClass_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgClass_files\u4.png" />
+    <Content Include="UI\tgGetCash.html" />
+    <Content Include="UI\tgGetCash_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgHowGetMoney.html" />
+    <Content Include="UI\tgHowGetMoney_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgHowGetMoney_files\u1.png" />
+    <Content Include="UI\tgInvest.html" />
+    <Content Include="UI\tgInvest_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgMain.html" />
+    <Content Include="UI\tgMain_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgMyInfo.html" />
+    <Content Include="UI\tgMyInfo_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgMyInfo_files\u34.png" />
+    <Content Include="UI\tgMyInfo_files\u41.png" />
+    <Content Include="UI\tgMyInfo_files\u73.png" />
+    <Content Include="UI\tgMyInfo_files\u76.png" />
+    <Content Include="UI\tgMyInfo_files\u78.png" />
+    <Content Include="UI\tgMyLeader.html" />
+    <Content Include="UI\tgMyLeader_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgMyLeader_files\u28.png" />
+    <Content Include="UI\tgMyLeader_files\u33.png" />
+    <Content Include="UI\tgMyLeader_files\u65.png" />
+    <Content Include="UI\tgMyLeader_files\u68.png" />
+    <Content Include="UI\tgMyLeader_files\u70.png" />
+    <Content Include="UI\tgMyMessage.html" />
+    <Content Include="UI\tgMyMessage_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgMyMessage_files\u0.png" />
+    <Content Include="UI\tgMyMoney.html" />
+    <Content Include="UI\tgMyMoney_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgMyMoney_files\u3.png" />
+    <Content Include="UI\tgOurTask.html" />
+    <Content Include="UI\tgOurTask_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgOurTask_files\u0.png" />
+    <Content Include="UI\tgOurTask_files\u10.png" />
+    <Content Include="UI\tgOurTask_files\u8.png" />
+    <Content Include="UI\tgRank.html" />
+    <Content Include="UI\tgRank_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgRank_files\u0.png" />
+    <Content Include="UI\tgRank_files\u129.png" />
+    <Content Include="UI\tgRegister.html" />
+    <Content Include="UI\tgRegister_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgSorce.html" />
+    <Content Include="UI\tgSorce_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\tgSorce_files\u1.png" />
+    <Content Include="UI\tgTask.html" />
+    <Content Include="UI\tgTask_files\axurerp_pagespecificscript.js" />
+    <Content Include="UI\Untitled_Start.html" />
+    <Content Include="UI\_Notes.html" />
+    <Content Include="UI\_SiteTree.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

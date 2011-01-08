@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tables>
+  <table0>
+    <row id="1" promoter_id="6" region_id="3" name="Eric" password="123456" verification_code="334455" verified_mobile_number="15827555778" />
+    <row id="2" promoter_id="7" region_id="3" name="Jim" password="123456" verification_code="667788" verified_mobile_number="15827555778" />
+    <row id="3" region_id="4" name="Tom" password="123456" verification_code="990022" verified_mobile_number="15827555778" />
+    <row id="4" region_id="5" name="Lucy" password="123456" verification_code="115577" verified_mobile_number="15827555778" />
+    <row id="5" region_id="3" name="P0" password="123456" verification_code="335522" verified_mobile_number="15827555778" />
+    <row id="6" promoter_id="5" region_id="3" name="P01" password="123456" verification_code="442211" verified_mobile_number="15827555778" />
+    <row id="7" promoter_id="5" region_id="3" name="P02" password="123456" verification_code="552211" verified_mobile_number="15827555778" />
+    <row id="8" region_id="3" name="S0" password="123456" verification_code="665544" verified_mobile_number="15827555778" />
+    <row id="9" region_id="3" name="S1" password="123456" verification_code="778899" verified_mobile_number="15827555778" />
+    <row id="10" promoter_id="5" region_id="3" name="测试" password="5644" verification_code="623026" verified_mobile_number="15827555778" />
+    <row id="11" name="" verification_code="143312" verified_mobile_number="15827555778" />
+    <row id="12" name="" verification_code="929716" verified_mobile_number="15827555778" />
+    <row id="13" name="" verification_code="239821" verified_mobile_number="15827555778" />
+    <row id="14" name="" verification_code="624705" verified_mobile_number="15827555778" />
+    <row id="15" name="" verification_code="523639" verified_mobile_number="15827555778" />
+  </table0>
+  <table1>
+    <row id="1" promoter_id="6" region_id="3" name="Eric" password="123456" verification_code="334455" verified_mobile_number="15827555778" />
+    <row id="2" promoter_id="7" region_id="3" name="Jim" password="123456" verification_code="667788" verified_mobile_number="15827555778" />
+    <row id="3" region_id="4" name="Tom" password="123456" verification_code="990022" verified_mobile_number="15827555778" />
+    <row id="4" region_id="5" name="Lucy" password="123456" verification_code="115577" verified_mobile_number="15827555778" />
+    <row id="5" region_id="3" name="P0" password="123456" verification_code="335522" verified_mobile_number="15827555778" />
+    <row id="6" promoter_id="5" region_id="3" name="P01" password="123456" verification_code="442211" verified_mobile_number="15827555778" />
+    <row id="7" promoter_id="5" region_id="3" name="P02" password="123456" verification_code="552211" verified_mobile_number="15827555778" />
+    <row id="8" region_id="3" name="S0" password="123456" verification_code="665544" verified_mobile_number="15827555778" />
+    <row id="9" region_id="3" name="S1" password="123456" verification_code="778899" verified_mobile_number="15827555778" />
+    <row id="10" promoter_id="5" region_id="3" name="测试" password="5644" verification_code="623026" verified_mobile_number="15827555778" />
+    <row id="11" name="" verification_code="143312" verified_mobile_number="15827555778" />
+    <row id="12" name="" verification_code="929716" verified_mobile_number="15827555778" />
+    <row id="13" name="" verification_code="239821" verified_mobile_number="15827555778" />
+    <row id="14" name="" verification_code="624705" verified_mobile_number="15827555778" />
+    <row id="15" name="" verification_code="523639" verified_mobile_number="15827555778" />
+  </table1>
+</tables>

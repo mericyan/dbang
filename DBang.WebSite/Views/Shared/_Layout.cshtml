@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
+    <script type="text/javascript" >
+        $(document).ready(function () {
+            debugger;
+            $.post("/HTMLPage1.aspx", { "txt": "123" }, function (data) {
+                debugger;
+                $("#divMsg").html(data);
+            });
+        });
+//        function ajaxTest() {
+//            alert(333);
+
+//            $(document).ready(function () { alert("ddddd")})
+
+//            $.post("/ttt.rest", { "txt": "123" }, function (data) 
+//            {
+//                $("#divMsg").html(data);
+//            });
+//        }
+</script>
+</head>
+
+<body>
+    <div class="page">
+
+        <div id="header">
+            <div id="title">
+                <h1>My MVC Application</h1>
+            </div>
+
+            <div id="logindisplay">
+                @Html.Partial("_LogOnPartial")
+            </div>
+
+            <div id="menucontainer">
+
+                <ul id="menu">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="divMsg"></div>
+        <div id="main">
+            @RenderBody()
+            <div id="footer">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
